@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cristiano Junior - Assistente Administrativo & Suporte Operacional</title>
+  <meta name="description" content="Assistente Administrativo com experiência em rotinas de escritório, atendimento, pacote Office e suporte a sistemas corporativos. Localizado em Brasília.">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Estilos para as animações em JavaScript -->
+  <style>
+    /* Estado inicial dos elementos para a animação de scroll */
+    .js-scroll {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* Estado ativo após o JavaScript detectar o scroll */
+    .js-scroll.ativo {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Animação suave nos cards de experiência ao passar o mouse */
+    .empresa {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .empresa:hover {
+      transform: translateY(-4px);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <!-- Logo SVG Profissional CJ. -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 38" width="110" height="38">
+      <path d="M 4 9 L 13 19 L 4 29" fill="none" stroke="#a3e635" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      <line x1="17" y1="29" x2="25" y2="29" stroke="#111111" stroke-width="4" stroke-linecap="round" />
+      <text x="35" y="27" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-weight="900" font-size="22" fill="#111111" letter-spacing="-0.5">
+        CJ<tspan fill="#a3e635">.</tspan>
+      </text>
+    </svg>
+
+    <nav>
+      <ul class="header-menu">
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="introducao js-scroll">
+    <img src="./img/perfil.jpg" alt="Cristiano Junior" width="360" height="520">
+    <div>
+      <h1>Assistente Administrativo<br>Rotinas de Escritório &<br>Suporte Operacional</h1>
+      <p>Localizado em Brasília 🏢</p>
+    </div>
+  </main>
+
+  <section class="experiencia" id="experiencia" aria-label="Experiência">
+    <h2 class="subtitulo">Experiência</h2>
+    <div>
+      <p class="experiencia-texto js-scroll">Foco na organização de <strong>rotinas administrativas</strong>, <strong>atendimento humanizado</strong> a clientes e colaboradores, gestão de documentos e suporte a sistemas corporativos. Facilidade para dominar novas ferramentas e fluxos com rapidez.</p>
+
+      <div class="empresa js-scroll">
+        <span class="empresa-ano">2 anos</span>
+        <h3 class="empresa-titulo">Escritório de Advocacia</h3>
+        <span class="empresa-titulo">Assistente Administrativo</span>
+        <p class="empresa-texto">Atuação em rotinas administrativas e operacionais de escritório: atendimento presencial e telefônico, organização de arquivos e documentos, alimentação de sistemas jurídicos/corporativos, manuseio de certificados digitais e auxílio no suporte técnico aos usuários.</p>
+        <ul class="empresa-habilidades">
+          <li>Rotinas Administrativas</li>
+          <li>Atendimento ao Cliente</li>
+          <li>Sistemas & Pacote Office</li>
+          <li>Suporte Técnico Operacional</li>
+        </ul>
+      </div>
+
+      <div class="empresa js-scroll">
+        <span class="empresa-ano">Voluntário</span>
+        <h3 class="empresa-titulo">Ensino de Informática</h3>
+        <span class="empresa-titulo">Instrutor</span>
+        <p class="empresa-texto">Ensino de rotinas digitais e uso prático do computador. Essa experiência aprimorou minha didática, paciência e habilidade de comunicação para lidar com pessoas e explicar procedimentos com clareza.</p>
+        <ul class="empresa-habilidades">
+          <li>Comunicação & Didática</li>
+          <li>Atendimento Humanizado</li>
+          <li>Organização</li>
+          <li>Empatia</li>
+        </ul>
+      </div>
+
+      <div class="empresa js-scroll">
+        <span class="empresa-ano">Atual</span>
+        <h3 class="empresa-titulo">Projetos & Prática</h3>
+        <span class="empresa-titulo">Estudos em Tecnologia</span>
+        <p class="empresa-texto">Estudo contínuo em Análise e Desenvolvimento de Sistemas. Aplicação de raciocínio lógico para entender ferramentas digitais, facilidade para elaboração de planilhas e documentação de processos internos.</p>
+        <ul class="empresa-habilidades">
+          <li>Lógica & Processos</li>
+          <li>Documentação</li>
+          <li>Sistemas Web</li>
+          <li>Facilidade de Aprendizado</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="formacao" id="formacao" aria-label="Formação">
+    <div class="formacao-container js-scroll">
+      <h2 class="subtitulo">Formação</h2>
+
+      <div>
+        <p class="formacao-texto">
+          Minha formação em <strong>Análise e Desenvolvimento de Sistemas</strong> me dá facilidade com softwares corporativos, automação de rotinas digitais e resolução ágil de problemas operacionais.
+        </p>
+
+        <ul class="faculdade-lista">
+          <li class="faculdade">
+            <span class="faculdade-tipo">2º Semestre (Cursando)</span>
+            <h3 class="faculdade-curso">Análise e Desenvolvimento de Sistemas</h3>
+            <span class="faculdade-instituicao">Senac</span>
+          </li>
+        </ul>
+
+        <div class="formacao-extra">
+          <div class="cursos">
+            <h3>Diferenciais</h3>
+            <ul>
+              <li>Habilitação <span>Categoria B (CNH)</span></li>
+              <li>Sistemas & Hardware <span>Manutenção & Suporte</span></li>
+            </ul>
+          </div>
+          <div class="idiomas">
+            <h3>Idiomas</h3>
+            <ul>
+              <li>Inglês <span>/ Técnico</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contato">
+    <div class="footer-container js-scroll">
+      <p class="footer-texto">Disponível para oportunidades em Assistente Administrativo, Auxiliar de Escritório e Suporte Operacional. Vamos conversar? 👋</p>
+      <ul class="footer-contato">
+        <li>juniorcristiano819@gmail.com</li>
+        <li>+55 61 99148-8909</li>
+        <li><a href="https://www.linkedin.com/in/cristiano-junior-899a5a429/" target="_blank">@cristianojunior</a></li>
+      </ul>
+      <p class="footer-copy">Cristiano Junior. Alguns direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Lógica das Animações em JavaScript -->
+  <script>
+    // 1. Scroll Suave ao Clicar no Menu
+    const menuLinks = document.querySelectorAll('.header-menu a[href^="#"]');
+
+    menuLinks.forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+
+        if (targetSection) {
+          targetSection.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    // 2. Animação de Aparição ao Rolar a Página (Intersection Observer)
+    const scrollElements = document.querySelectorAll('.js-scroll');
+
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.15 // Ativa quando 15% do elemento entra na tela
+    };
+
+    const scrollObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('ativo');
+          observer.unobserve(entry.target); // Anima apenas uma vez
+        }
+      });
+    }, observerOptions);
+
+    scrollElements.forEach(el => {
+      scrollObserver.observe(el);
+    });
+  </script>
+</body>
+
+</html>
